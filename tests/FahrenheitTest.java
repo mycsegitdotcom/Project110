@@ -13,7 +13,8 @@ public class FahrenheitTest extends TestCase{
     }
 
     public void testFahrenheitToString(){
-        float value = 12.34f;
+        float value = 12.34f
+                
 
         Fahrenheit temp = new Fahrenheit(value);
         String string = temp.toString();
